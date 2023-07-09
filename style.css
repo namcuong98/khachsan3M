@@ -1,0 +1,54 @@
+
+.container {
+    width: 460px;
+}
+
+button {
+    border: 0;
+}
+
+.info__rom-large {
+    position: relative;
+}
+
+.info__rom-large--img {
+    width: 100%;
+}
+
+.btn-changer {
+    position: absolute;
+    display: flex;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 50%;
+}
+
+.btn-changer:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 0.1);
+}
+
+.info__rom-changer--left {
+    left: 6%;
+}
+
+.info__rom-changer--right {
+    right: 6%;
+}
+
+.info__rom-changer--icon {
+    padding: 12px 10px;
+    font-size: 20px;
+}
+
+
+
+.info__rom-small {
+    display: flex;
+    gap: 6px;
+}
+
+.info__rom-small--img {
+    width: 110px;
+
+}
